@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="208dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:padding="50dp"
+            android:text="Đăng ký"
+            android:textSize="25dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="40dp">
+
+                        <EditText
+                            android:id="@+id/register_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/shape_edit_text"
+                            android:drawableLeft="@drawable/mailicon"
+                            android:drawablePadding="10dp"
+                            android:hint="Nhập Email..."
+                            android:inputType="textEmailAddress"
+                            android:padding="10dp"
+                            android:textSize="15sp" />
+
+                        <EditText
+                            android:id="@+id/register_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/shape_edit_text"
+                            android:drawableLeft="@drawable/key"
+                            android:drawablePadding="10dp"
+                            android:hint="Nhập mật khẩu..."
+                            android:inputType="textPassword"
+                            android:padding="10dp"
+                            android:textSize="15sp" />
+
+                        <EditText
+                            android:id="@+id/register_password_cofirm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/shape_edit_text"
+                            android:drawableLeft="@drawable/key"
+                            android:drawablePadding="10dp"
+                            android:hint="Xác nhận mật khẩu..."
+                            android:inputType="textPassword"
+                            android:padding="10dp"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/register_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/shape_button_login2"
+                        android:padding="10dp"
+                        android:text="Tạo tài khoản"
+                        android:textAllCaps="false"
+                         />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/already_have_an_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

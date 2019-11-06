@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "294094094000",
+    "firebase_url": "https://fir-6c22a.firebaseio.com",
+    "project_id": "fir-6c22a",
+    "storage_bucket": "fir-6c22a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294094094000:android:e818c23fdb153337",
+        "android_client_info": {
+          "package_name": "com.example.admin.whatappusingfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294094094000-pr09jjsbg1vnnmghljr6aj8b6t0t3fmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.whatappusingfirebase",
+            "certificate_hash": "3533e61b486a83e605d55e672cf0545770033d85"
+          }
+        },
+        {
+          "client_id": "294094094000-poc1tak069mt98hrfee33kj26uctgftl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.whatappusingfirebase",
+            "certificate_hash": "b4c37c7ebfc2cd8769abb0c9950d08333a03d958"
+          }
+        },
+        {
+          "client_id": "294094094000-i5hsild2l65th5rscqf8c4getm3q8s3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvg1OeUsUIluVmHBtvAnbDd5WDqceskEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294094094000-i5hsild2l65th5rscqf8c4getm3q8s3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

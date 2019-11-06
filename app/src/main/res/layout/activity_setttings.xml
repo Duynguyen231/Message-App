@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetttingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/set_profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_color="@android:color/background_dark"
+        app:civ_border_width="1dp" />
+
+    <EditText
+        android:id="@+id/set_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_profile_image"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_edit_text"
+        android:drawableLeft="@drawable/edit_profile"
+        android:hint="Nhập tên người dùng..."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+         />
+
+    <EditText
+        android:id="@+id/set_profile_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_user_name"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_edit_text"
+        android:drawableLeft="@drawable/edit_profile"
+        android:hint="Nhập trạng thái..."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/update_setttings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_profile_status"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+
+        android:padding="10dp"
+        android:text="Cập nhật"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textStyle="bold" />
+</RelativeLayout>

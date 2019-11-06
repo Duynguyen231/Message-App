@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_find_friends_option"
+        android:title="Tìm kiếm bạn bè"
+        app:showAsAction="never" />\
+    <item
+        android:id="@+id/main_create_group_option"
+        android:title="Tạo nhóm"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_setting_option"
+        android:title="Cập nhật trạng thái"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_logout_option"
+        android:title="Đăng xuất"
+        app:showAsAction="never" />
+</menu>
